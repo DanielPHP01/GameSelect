@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GameSelect</string>
+    <string name="b">B</string>
+    <string name="a">A</string>
+    <string name="result">Result</string>
+    <string name="correct_answers_0">Correct_answers_0</string>
+    <string name="incorrect_answers_0">Incorrect_answers_0</string>
+    <string name="question">Question</string>
+</resources>
