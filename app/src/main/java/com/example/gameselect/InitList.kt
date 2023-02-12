@@ -5,11 +5,11 @@ class InitList {
         get() {
             val modelList: MutableList<ModelList> = ArrayList<ModelList>()
             val questions = listOf(
-                ModelList("Who is Soccer", R.drawable.img, R.drawable.img_3, "A", "B", "A", ""),
-                ModelList("Who is Basketball", R.drawable.img_3, R.drawable.img_2, "A", "B", "B", ""),
-                ModelList("Who is Tennis", R.drawable.ic_launcher_foreground, R.drawable.ic_launcher_background, "A", "B", "A", ""),
-                ModelList("Who is Boxer", R.drawable.ic_launcher_foreground, R.drawable.ic_launcher_background, "A", "B", "A", ""),
-                ModelList("Who is Swimmer", R.drawable.ic_launcher_foreground, R.drawable.ic_launcher_background, "A", "B", "B", "")
+                ModelList("Where is the Arsenal?", R.drawable.chelsea_logo, R.drawable.arsenal_logo, "A", "B", "B", ""),
+                ModelList("Where is the Barcelona?", R.drawable.barcelona_logo, R.drawable.rm_logo, "A", "B", "A", ""),
+                ModelList("Where is the Ajax?", R.drawable.galatasaray_logo, R.drawable.ajax_logo, "A", "B", "B", ""),
+                ModelList("Where is the Manchester City?", R.drawable.ms_logo, R.drawable.mu_logo, "A", "B", "A", ""),
+                ModelList("Where is the PSG?", R.drawable.psg_logo, R.drawable.zenit_logo, "A", "B", "A", "")
             )
             for (question in questions) {
                 modelList.add(question)

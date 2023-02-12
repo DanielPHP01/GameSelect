@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     tools:context=".MainActivity">
 
     <TextView
@@ -23,7 +24,7 @@
 
     <ImageView
         android:id="@+id/img_a"
-        android:layout_width="217dp"
+        android:layout_width="200dp"
         android:layout_height="324dp"
         android:src="@drawable/ic_launcher_foreground"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +32,7 @@
 
     <ImageView
         android:id="@+id/img_b"
-        android:layout_width="217dp"
+        android:layout_width="200dp"
         android:layout_height="324dp"
         android:src="@drawable/ic_launcher_foreground"
         app:layout_constraintEnd_toEndOf="parent"
