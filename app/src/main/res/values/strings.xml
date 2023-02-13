@@ -6,4 +6,7 @@
     <string name="correct_answers_0">Correct_answers_0</string>
     <string name="incorrect_answers_0">Incorrect_answers_0</string>
     <string name="question">Question</string>
+    <string name="false1">False</string>
+    <string name="true1">True</string>
+    <string name="_1_10">1/10</string>
 </resources>

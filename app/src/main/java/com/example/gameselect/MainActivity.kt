@@ -63,8 +63,8 @@ class MainActivity : AppCompatActivity() {
         binding.imgA.visibility = View.GONE
         binding.imgB.visibility = View.GONE
 
-        binding.tvCorrectAnswer.text = "Correct answers - ${getCorrectAnswerCount()}"
-        binding.tvInCorrectAnswer.text = "Incorrect answers - ${getInCorrectAnswerCount()}"
+        binding.tvCorrectAnswer.text = "True - ${getCorrectAnswerCount()}"
+        binding.tvInCorrectAnswer.text = "False - ${getInCorrectAnswerCount()}"
         binding.resultLayout.visibility = View.VISIBLE
     }
 
